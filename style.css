@@ -137,4 +137,164 @@ button:hover{
 }
 /* content section ends */
 
+.serv-text{
+    text-align: center;
+    padding-bottom: 5rem;
+}
+.serv-text h1{
+    font-size: 2.5rem;
+    text-transform: capitalize;
+}
+.serv-text p{
+    margin: 0 20rem;
+    color: #47416d;
+}
 
+
+/* service section starts */
+
+
+
+
+
+
+/* service section ends */
+
+
+
+
+
+
+
+
+
+.container {
+    display: flex;
+    margin: 0rem 15rem;
+}
+
+.service-plan {
+    margin: 1rem;
+    padding: 1.5rem;
+    border-radius: 5px;
+    box-shadow: 16px 12px 52px -33px rgb(18 186 250 / 50%);
+}
+
+.service-plan.left {
+    background-color: #480f9241;
+}
+
+.service-plan.center {
+    background-color: #958ada;
+}
+
+.service-plan.right {
+    background-color: #dce2e9;
+}
+
+.icon {
+    font-size: 50px;
+}
+
+#service-h3 {
+    font-size: 25px;
+}
+
+#service-p {
+    color: rgba(0, 0, 0, 0.568);
+    font-weight: 600;
+}
+
+
+
+/* gallery section */
+.gallery{
+    margin-top: 10rem;
+    display: flex;
+    justify-content: center;
+}
+.gallery img{
+    margin: 1rem;
+}
+/* gallery section ends */
+
+
+/* charity section starts */
+
+.charity-title{
+    text-align: center;
+    margin: 0 15rem;
+}
+.charity-title h1{
+    font-size: 2.5rem;
+    font-stretch: condensed;
+}
+.charity-title p{
+    color: #47416d;
+    margin: 0rem;
+}
+
+
+
+
+.charity-donate{
+    display: flex;
+    text-align: left;
+    
+
+}
+.donate-box{
+    margin: 3rem 2rem;
+    background-color: #47416d;
+
+}
+.donate-box.left {
+    margin-left: 5rem;
+    background-color: #ebe8ff;
+    border-radius: 1rem;
+}
+.donate-box.center {
+    background-color: #ebe8ff;
+    border-radius: 1rem;
+}
+.donate-box.right {
+    margin-right: 5rem;
+    background-color: #ebe8ff;
+    border-radius: 1rem;
+}
+.donate-box h1{
+    text-align: left;
+    font-size: 1.2rem;
+    padding: 1rem;
+}
+
+.donate-box p{
+   padding: 0rem 1rem 1rem 1rem;
+} 
+
+.zakat-btn{
+    background-color: #ffffff00;
+    color: var(--main-color);
+    font-size: 1rem;
+
+}
+.zakat-btn:hover{
+    color: #fff;
+    background-color: #47416d;
+}
+
+/* charity section ends */
+
+
+footer{
+    padding: 5rem;
+    background-color: #000;
+    text-align: center;
+}
+footer h1{
+    color: #ff5e00;
+    font-family: var(--head);
+}
+footer p{
+    color: #8c55d3;
+}
